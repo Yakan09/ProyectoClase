@@ -2,7 +2,7 @@ const { Client } = require('pg');
 
 // Configura estos valores con los de tu entorno
 const client = new Client({
-  host: '192.168.1.0', // Reemplaza con la IP de tu máquina host (por ejemplo, 192.168.56.1)
+  host: 'localhost', // Reemplaza con la IP de tu máquina host (por ejemplo, 192.168.56.1)
   port: 5432,
   user: 'postgres',       // Reemplaza con tu usuario de PostgreSQL
   password: 'fer180703',// Reemplaza con tu contraseña
